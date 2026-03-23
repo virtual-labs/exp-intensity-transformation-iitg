@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Image negative transformation is useful for:",
+      "answers": {
+        "a": "Removing blur",
+        "b": "Enhancing dark region details",
+        "c": "Edge detection",
+        "d": "Thresholding"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Gamma correction is a:",
+      "answers": {
+        "a": "Linear transformation",
+        "b": "Logarithmic transformation",
+        "c": "Power-law transformation",
+        "d": "Frequency transform"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If γ < 1, the image becomes:",
+      "answers": {
+        "a": "Darker",
+        "b": "Brighter",
+        "c": "Binary",
+        "d": "No change"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Contrast stretching mainly improves:",
+      "answers": {
+        "a": "Hue",
+        "b": "Saturation",
+        "c": "Intensity range",
+        "d": "Spatial resolution"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Intensity transformations are performed in:",
+      "answers": {
+        "a": "Frequency domain",
+        "b": "Spatial domain",
+        "c": "Wavelet domain",
+        "d": "Edge domain"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
