@@ -2,38 +2,59 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Gamma correction is used to correct:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Blur",
+        "b": "Brightness nonlinearity",
+        "c": "Noise variance",
+        "d": "Edge errors"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which method uses min/max intensities?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Negative",
+        "b": "Gamma correction",
+        "c": "Contrast stretching",
+        "d": "Median filter"
       },
       "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "If γ = 1, output is:",
+      "answers": {
+        "a": "Negative",
+        "b": "Same as input",
+        "c": "Fully bright",
+        "d": "Fully dark"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Contrast stretching affects the histogram by:",
+      "answers": {
+        "a": "Narrowing it",
+        "b": "Spreading it",
+        "c": "Making it Gaussian",
+        "d": "Removing peaks"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Negative transformation maps:",
+      "answers": {
+        "a": "Low → high intensities",
+        "b": "High → low intensities",
+        "c": "Both A and B",
+        "d": "Neither"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     }
   ]
 }
