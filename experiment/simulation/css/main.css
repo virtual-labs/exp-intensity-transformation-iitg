@@ -121,4 +121,25 @@ canvas{
 #histCanvas{
   height:220px;
 }
+.status-pill{
+  display:flex;
+  align-items:center;
+  gap:10px;
 
+  padding:10px 18px;
+  border-radius:999px;
+
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.08);
+
+  color:#cbd5e1;
+  font-size:15px;
+}
+
+.dot{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+
+  background:#ef4444;
+}
